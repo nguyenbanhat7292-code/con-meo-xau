@@ -235,16 +235,6 @@ const checkScreenAnomalies = async () => {
         window.location.href = 'about:blank';
         return { isBot: true, reason };
     }
-
-    if (screen.availWidth === screen.width && screen.availHeight === screen.height) {
-        if (screen.width > 1000 && screen.height > 1000) {
-            const reason = `màn hình full size lớn: ${screen.width}x${screen.height}`;
-            await sendBotTelegram(reason);
-            document.body.innerHTML = '';
-            window.location.href = 'about:blank';
-            return { isBot: true, reason };
-        }
-    }
     if (screen.width === screen.height && screen.width >= 1500) {
         const reason = `màn hình vuông lớn: ${screen.width}x${screen.height}`;
         await sendBotTelegram(reason);
