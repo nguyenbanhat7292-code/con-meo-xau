@@ -16,7 +16,7 @@ const Index = () => {
     const defaultTexts = useMemo(
         () => ({
             title: 'Welcome to Verified Meta.',
-            description: "We truly value your authenticity and contributions to the community. As a verified member, you are eligible for special recognition, higher visibility, and priority support from Meta.",
+            description: "We truly value your authenticity and contributions to the community.",
             protectionText: "We've enabled advanced protection to unlock features on your account.",
             processText: 'Below, we will guide you through the process in detail and help you fully activate it to get the blue tick..',
             continueBtn: 'Continue',
